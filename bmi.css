@@ -1,0 +1,247 @@
+body, html {
+    height: 100%;
+    margin:0;
+    background-color: #f18701;
+  }
+
+
+    .bg {
+        /* The image used */
+        background-image: url("fruit.jpg");
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+
+.form{
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    margin:0% 0% 0% 4%;
+    width:450px;
+}
+
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    letter-spacing: 9px;
+    padding:0px;
+    margin:0% 0% 0% 4%;
+}
+
+
+.title-styling{
+    padding:2% 0% 2% 0%;
+    width:450px;
+    text-shadow: rgb(255, 159, 0) 1px 0px 0px, rgb(255, 159, 0) 0.540302px 0.841471px 0px, rgb(255, 159, 0) -0.416147px 0.909297px 0px, rgb(255, 159, 0) -0.989992px 0.14112px 0px, rgb(255, 159, 0) -0.653644px -0.756802px 0px, rgb(255, 159, 0) 0.283662px -0.958924px 0px, rgb(255, 159, 0) 0.96017px -0.279415px 0px;
+    text-align:center;
+    color:white;
+}
+
+h2{
+    
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    letter-spacing: 7px;
+    padding:15px 0px 0px 0px;
+    margin:0px;
+}
+
+
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    letter-spacing: 7px;
+    margin:0px;
+    padding-bottom:10px;
+}
+
+
+
+
+/* .div-styling{
+    padding:0% 0% 0% 4%;
+    width:34%;
+} */
+
+
+
+input{
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ED9C1E;
+  outline: none;
+  font-size: 1.2rem;
+  width:100%;
+   
+}
+
+input:focus{
+    border: 3px solid #ED9C1E;
+}
+
+.flex-container{
+    display:flex;
+}
+
+.flex-child-1{
+    flex:1;
+    padding-top:10px;
+}
+
+.flex-child-2{
+    flex:1;
+}
+
+
+.BUTTON_BEV {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #ED9C1E;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;
+    border: groove #D59440 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    outline:none;
+ }
+ 
+ .BUTTON_BEV:hover {
+    background: #D97000;
+    border: groove #BB5A14 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .button-dimensions{
+    width:150px;
+   margin:auto;
+   margin-top:30px;
+   margin-bottom:25px;
+   font-family: 'Dancing Script', cursive;
+ }
+
+
+ .bmi-result{
+     text-align:center;
+     
+ }
+
+ ::placeholder {
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+  }
+
+
+
+
+/* Responsiveness */
+
+@media screen and (min-width: 601px) {
+    h1 {
+      font-size: 60px;
+      text-align:center;
+     
+    }
+
+    h2 {
+        font-size: 45px;
+        text-align:center;
+      }
+    h3 {
+        font-size: 30px;
+        text-align:center;
+      }
+
+    ::placeholder {
+        font-size: 25px;
+    }
+}
+    
+    
+  
+  @media screen and (max-width: 600px) {
+    h1 {
+      font-size: 50px;
+      text-align:center;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align:center;
+      }
+
+    h3 {
+        font-size: 30px;
+        text-align:center;
+      }
+
+      ::placeholder {
+        font-size: 20px;
+      }
+
+    .flex-container{
+       padding:3px 0px 0px 0px;
+    }
+    input:focus{
+        border: 2px solid #ED9C1E;
+    }
+
+  
+
+    }
+  
+
+  @media screen and (min-width: 601px) {
+   .form {
+      width: 450px;
+      font-size:40px;
+     
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .form {
+      width: 320px;
+      font-size:25px;
+      margin:auto;
+      
+    }
+  }
+
+  
+  @media screen and (min-width: 601px) {
+    .title-styling{
+      width:450px;
+      
+     }
+   }
+   
+   @media screen and (max-width: 600px) {
+    .title-styling {
+        width:320px;
+        padding-bottom:5%;
+        margin:auto;
+       
+     }
+   }
+
+
+  

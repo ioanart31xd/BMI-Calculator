@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="bmi.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Redressed&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+      <title>BMI Calculator</title>
+   </head>
+   <body>
+      <div class="bg">
+         <h1 class="title-styling">BMI Calculator</h1>
+      <form id="form" class="form">
+         <div class=" flex-container">
+            <div class="flex-child-1"><label for="name">Name:</label></div>
+            <div class="flex-child-2"><input type="text" name="name" id="name"  placeholder="First Name" ></div>
+         </div>
+         <div class=" flex-container">
+            <div class="flex-child-1"><label for="height">Height:</label></div>
+            <div class="flex-child-2"><input type="text" name="height" id="height"  placeholder="Height in m" ></div>
+         </div>
+         <div class=" flex-container">
+            <div class="flex-child-1"><label for="weight">Weight:</label></div>
+            <div class="flex-child-2"><input type="text" name="weight" id="weight"  placeholder="Weight in kg" ></div>
+         </div>
+         <div class=" flex-container">
+            <!-- <input type="button" value="calculate" onclick="bmi()"> -->
+            <button class="BUTTON_BEV button-dimensions" type="button" onclick="bmi()"> Submit </button>
+            <button class="BUTTON_BEV button-dimensions" type="button" onclick="customReset()" > Reset </button>
+         </div>
+            <div id="bmi-result" class="bmi-result">
+            <h3 id= "bmi_greeting" ></h3>
+            <h2 id= "bmi_text" ></h2>
+            <h2 id= "bmi_index"></h2>
+            <h3 id="bmi_category"></h2>  
+         </div>
+      </form>
+      </div>
+
+      <script src="bmi.js"></script>
+   </body>
+</html>
